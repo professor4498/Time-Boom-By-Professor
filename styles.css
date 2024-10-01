@@ -1,0 +1,123 @@
+/*Developer RAFI*/
+/* Join https://t.me/RNF_MODs*/
+
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #000; /* Black background */
+    color: #fff; /* White text */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Container styling */
+.container {
+    background-color: #1a1a1a; /* Darker black */
+    border-radius: 15px;
+    padding: 50px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+    box-shadow: 0px 15px 20px rgba(255, 0, 0, 0.5); /* Red shadow */
+    transition: transform 0.5s;
+}
+
+/*Developer RAFI*/
+/* Join https://t.me/RNF_MODs*/
+
+.container:hover {
+    transform: scale(1.03);
+}
+
+/* Title styling */
+.title {
+    font-size: 2.8em;
+    color: #ff0000; /* Bright red title */
+    margin-bottom: 15px;
+    text-shadow: 0px 4px 10px rgba(255, 0, 0, 0.5); /* Red glow */
+}
+
+/* Description styling */
+.description {
+    font-size: 1.1em;
+    color: #d3d3d3; /* Light gray description */
+    margin-bottom: 30px;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 25px;
+}
+
+label {
+    display: block;
+    font-size: 1.2em;
+    color: #ff0000; /* Red label text */
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1em;
+    border: 2px solid #ff0000; /* Red border */
+    border-radius: 8px;
+    background-color: #333; /* Dark gray background */
+    color: #fff; /* White text */
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+input:focus {
+    border-color: #ff4444; /* Lighter red on focus */
+    box-shadow: 0px 0px 10px #ff0000; /* Red glow */
+}
+
+/* Submit button styling */
+.submit-btn {
+    background-color: #ff0000; /* Bright red button */
+    color: #fff; /* White text */
+    padding: 14px 28px;
+    font-size: 1.3em;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+/*Developer RAFI*/
+/* Join https://t.me/RNF_MODs*/
+
+.submit-btn:hover {
+    background-color: #d40000; /* Darker red on hover */
+    box-shadow: 0px 10px 20px rgba(255, 0, 0, 0.6), 0px 10px 30px rgba(255, 0, 0, 0.8); /* Red glow */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 30px;
+    }
+
+    .title {
+        font-size: 2.5em;
+    }
+
+    .submit-btn {
+        font-size: 1.2em;
+        padding: 12px 24px;
+    }
+}
+
+/*Developer RAFI*/
+/* Join https://t.me/RNF_MODs*/
