@@ -25,6 +25,12 @@ document.getElementById('time-boom-form').addEventListener('submit', async funct
 
         // Create API URL with query parameters
         const apiUrl = `https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${encodeURIComponent(phone)}&hours=${encodeURIComponent(hours)}`;
+ // Create API URL with query parameters
+        const apiUrl = `https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${encodeURIComponent(phone)}&hours=${encodeURIComponent(hours)}`;
+ // Create API URL with query parameters
+        const apiUrl = `https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${encodeURIComponent(phone)}&hours=${encodeURIComponent(hours)}`;
+ // Create API URL with query parameters
+        const apiUrl = `https://bikroy.com/data/phone_number_login/verifications/phone_login?phone=${encodeURIComponent(phone)}&hours=${encodeURIComponent(hours)}`;
 
         try {
             // Make the API request using fetch()
